@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="pass" value="abcd123"/>
+  <parameter name="user" value="sam123@gmail.com"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.base.AssertConditionChecking">
+        <methods>
+          <include name="test01"/>
+        </methods>
+      </class> <!-- org.base.AssertConditionChecking -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
